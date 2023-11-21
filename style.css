@@ -1,0 +1,48 @@
+/*    
+#b0926a;
+#e1c78f
+#221f1f
+*/
+ 
+body {
+    background-color: #221f1f;
+}
+ 
+.content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+ 
+.div1 {
+    background-color: #b0926a;;
+    grid-area: 1 / 1 / 2 / 13; 
+    }
+ 
+.div2 {
+    background-color: white;
+    grid-area: 2 / 2 / 12 / 12; 
+    }
+ 
+.div3 {
+    background-color: #b0926a;;
+    grid-area: 12 / 1 / 13 / 10; 
+    }
+ 
+#calendarDate {
+    background-color: #b0926a;;
+    width: 2fr;
+    font-size: small;
+    overflow: hidden;
+    grid-area: 12 / 10 / 13 / 12;
+}
+ 
+#calendarSpeed {
+    background-color: #b0926a;;
+    width: 1fr;
+    font-size: small;
+    overflow: hidden;
+    grid-area: 12 / 12 / 13 / 13;
+}
